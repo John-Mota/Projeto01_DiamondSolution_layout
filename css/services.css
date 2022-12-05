@@ -1,9 +1,6 @@
 .img__service {
     display: flex;
-    width: 90px;
-    height: 240px;
-    padding-left: 40px;
-    padding-top: 50px;
+    
 }
 
 .service h1 {
@@ -17,17 +14,15 @@
 .img__service img {
     justify-content: center;
     margin: 20px;
+    
 }
 
-@media(max-width: 600px){
+@media(max-width: 900px){
     .img__service  {
-        display: inline-table;
+        display: table-footer-group;
         padding: 10px;
         
-        width: 100%;
     }
-    .img__service img {
-        padding: 0 70px;
-    }
+    
 
 }
