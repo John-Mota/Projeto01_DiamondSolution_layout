@@ -22,6 +22,12 @@
     background-color: #009CCC;
 }
 
+@media(max-width: 650px){
+    .list__menu {
+      display: grid;  
+    }
+}
+
 .button__menu a {
     text-decoration: none;
     text-transform: uppercase;

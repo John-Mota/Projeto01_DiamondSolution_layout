@@ -37,8 +37,13 @@
 .networks  {
     display: flex;
     list-style: none;
-     
-      
+}
+
+@media(max-width: 650px){
+    .networks {
+        flex-wrap: wrap;
+    }
+    
 }
 
 .networks > li {
