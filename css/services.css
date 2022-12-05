@@ -1,0 +1,21 @@
+.img__service {
+    display: flex;
+    width: 90px;
+    height: 240px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+
+.service h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 70px 0;
+
+    color: #015a75;
+}
+
+.img__service img {
+    justify-content: center;
+    padding: 0 20px;
+}

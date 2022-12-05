@@ -1,0 +1,39 @@
+
+#menu {
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-right: 0;
+}
+
+.list__menu {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.button__menu {
+    margin: 20px;
+    padding: 15px;
+    border: white solid;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #009CCC;
+}
+
+.button__menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.my__menu {
+    background-image: linear-gradient(180deg, #46a4cc 0, #009ccc 50%, #0078b2 100%);
+}
+
+.button__menu:hover {
+    background-color: #027fa5;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+
+
+#modelagem {
+    display: flex;
+    font-family: 1rem;
+}
+
+.depoiment__block {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.depoiment__block h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    
+    color: #015a75;
+
+    padding: 0 20px;
+}
+
+.depoiment__block p {
+    font-size: 1.2em;
+    text-align: left;
+    padding-top: 50px;
+
+    color: #015a75;
+}

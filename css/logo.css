@@ -1,0 +1,12 @@
+
+.logo__style {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo__style img {
+    max-width: 590px;
+    max-height: 190px;
+
+}

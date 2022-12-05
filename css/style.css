@@ -1,0 +1,24 @@
+@import 'logo.css';
+@import 'menu.css';
+@import 'depoiment.css';
+@import 'services.css';
+@import 'baseboard.css';
+
+
+* {   
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5;
+}
+
+body {
+    margin: 0;
+    font-style: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
