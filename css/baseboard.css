@@ -18,7 +18,7 @@
 }
 
 .alignment__baseboard > ul > h4 {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     color: #f5f5f5;
     text-align: left;
     
@@ -40,7 +40,7 @@
     list-style: none;
 }
 
-@media(max-width: 650px){
+@media(max-width: 900px){
     .networks {
         flex-wrap: wrap;
     }

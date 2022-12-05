@@ -22,7 +22,7 @@
     background-color: #009CCC;
 }
 
-@media(max-width: 650px){
+@media(max-width: 600px){
     .list__menu {
       display: grid;  
     }

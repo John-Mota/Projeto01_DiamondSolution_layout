@@ -1,6 +1,6 @@
 .img__service {
     display: flex;
-    
+    justify-content: space-evenly;
 }
 
 .service h1 {
@@ -11,18 +11,12 @@
     color: #015a75;
 }
 
-.img__service img {
-    justify-content: center;
-    margin: 20px;
-    
-}
+
 
 @media(max-width: 900px){
     .img__service  {
-        display: table-footer-group;
+        display: block;
         padding: 10px;
-        
+        text-align: center;
     }
-    
-
 }
