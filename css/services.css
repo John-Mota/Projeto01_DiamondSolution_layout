@@ -6,20 +6,6 @@
     padding-top: 50px;
 }
 
-@media(max-width: 992px){
-    .img__service  {
-        display: inline-table;
-        padding: 10px;
-        
-        width: 100%;
-    }
-    .img__service img {
-        padding: 0 70px;
-    }
-
-}
-
-
 .service h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -31,4 +17,17 @@
 .img__service img {
     justify-content: center;
     margin: 20px;
+}
+
+@media(max-width: 600px){
+    .img__service  {
+        display: inline-table;
+        padding: 10px;
+        
+        width: 100%;
+    }
+    .img__service img {
+        padding: 0 70px;
+    }
+
 }
